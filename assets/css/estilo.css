@@ -1,0 +1,75 @@
+.header-section{
+	
+}
+
+
+#botones1{
+	color: white;
+	font-size: 1rem;
+	display: inline-block;
+	padding: 8px 30px;
+	background: #22698F;
+	border-radius: 10px;
+	font-family: 'Oswald', sans-serif;
+	transition: .3s;
+	margin: 5px 5px;
+}
+#botones1:hover{
+	color: black;
+	background: #70CDFF
+
+}
+
+.about-item-thumb{
+	background: #22698F !important
+}
+.padding-lg-top{
+	display: flex;
+	padding-top: 1px;
+}
+.face{
+	width: 25px !important;
+	opacity: .8;
+}
+.twiter{
+	width: 25px !important;
+	opacity: .8;
+
+}
+.tele{
+	width: 25px !important;
+	opacity: .8;
+
+}
+.discord{
+	width: 25px !important;
+	opacity: .8;
+
+}
+
+.face:hover{
+	opacity: 1;
+}
+.twiter:hover{
+	opacity: 1;
+}
+.tele:hover{
+	opacity: 1;
+}
+.icofont-rounded-up{
+	background: #70CDFF !important; 
+}
+iframe{
+	margin: 140px 0;
+}
+@media (max-width: 800px){
+	.disp-no{
+		display: none;
+
+	}
+	iframe{
+		width: 340px;
+		height: 180px;
+		margin: 0 0;
+	}
+
